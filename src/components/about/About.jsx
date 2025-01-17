@@ -39,7 +39,7 @@ const About = () => {
                             <small className="text-xs text-light block mt-1">+1 Ongoing</small>
                         </div>
                     </div>
-                    <p className="text-light md:text-sm md:ml-5 text-center">
+                    <p className="text-light mx-5 md:text-sm md:ml-5 text-center">
                     I am a meticulous web developer with a passion for creating responsive, user-friendly, and efficient applications.My perfectionist nature ensures high-quality code, optimized performance, and seamless user experiences. With certifications from platforms like Coursera, Udemy. I continuously enhance my technical skills. I also hold soft skills certifications, enabling effective collaboration and communication. I strive to deliver innovative solutions and contribute to impactful projects.
                     </p>
                     <a href="#contact" className="btn btn-primary">

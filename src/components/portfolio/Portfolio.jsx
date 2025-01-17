@@ -94,7 +94,7 @@ const Portfolio = () => {
             </div>
             
             <h2 className="mt-20 text-4xl lg:text-5xl xl:text-6xl mb-10 text-center">Experience</h2>
-            <div className="flex justify-center items-center max-w-6xl mx-auto gap-10">
+            <div className="md:flex grid justify-center items-center max-w-6xl mx-8 gap-10">
     {/* Frontend Developer at Totally Optimised Solutions */}
     <div className="text-center mb-6 w-full max-w-md p-6  rounded-7xl shadow-lg bg-[#79717A] hover:bg-transparent hover:border hover:border-white duration-700">
         <h3 className="text-2xl font-bold">Frontend Developer</h3>

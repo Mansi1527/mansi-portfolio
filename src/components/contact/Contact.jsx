@@ -51,39 +51,40 @@ const Contact = () => {
                 </div>
 
                 {/* Form Section */}
-                <div className="lg:w-2/3 mt-8 lg:mt-0 bg-transparent">
-                <form ref={form} onSubmit={sendEmail} className="space-y-6 bg-transparent">
+                <div className="lg:w-2/3  mt-8 lg:mt-0 bg-transparent mx-4 sm:mx-6 md:mx-8">
+  <form ref={form} onSubmit={sendEmail} className="space-y-6 bg-transparent ">
     <input
-        type="text"
-        name='name'
-        placeholder='Raymond Rhodes'
-        required
-        className="w-full p-4 bg-transparent border border-[#A68F97] rounded-md focus:outline-none placeholder:text-light"
+      type="text"
+      name='name'
+      placeholder='Raymond Rhodes'
+      required
+      className="w-full p-4 bg-transparent border border-[#A68F97] rounded-md focus:outline-none placeholder:text-light"
     />
     <input
-        type="email"
-        name='email'
-        placeholder='example@example.com'
-        required
-        className="w-full p-4 bg-transparent border border-[#A68F97] rounded-md focus:outline-none "
+      type="email"
+      name='email'
+      placeholder='example@example.com'
+      required
+      className="w-full p-4 bg-transparent border border-[#A68F97] rounded-md focus:outline-none"
     />
     <textarea
-        name='message'
-        rows="7"
-        placeholder='Hi Vu, I have a question...'
-        required
-        className="w-full p-4 bg-transparent border border-[#A68F97] rounded-md focus:outline-none  resize-none"
+      name='message'
+      rows="7"
+      placeholder='Hi Vu, I have a question...'
+      required
+      className="w-full p-4 bg-transparent border border-[#A68F97] rounded-md focus:outline-none resize-none"
     />
     <button
-        type='submit'
-        className='w-full py-3 bg-primary text-black bg-[#A68F97] rounded-md hover:bg-white transition'
+      type='submit'
+      className='w-full py-3 bg-primary text-black bg-[#A68F97] rounded-md hover:bg-white transition'
     >
-        Send Message
+      Send Message
     </button>
-</form>
+  </form>
+</div>
 
 
-                </div>
+
             </div>
         </section>
     )
