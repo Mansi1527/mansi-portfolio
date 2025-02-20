@@ -28,14 +28,14 @@ const About = () => {
                             <TbCertificate className="mb-4 text-xl text-primary" />
                           
                             <h5 className="text-sm font-semibold">Certificate</h5>
-                            <small className="text-xs flex text-light mt-1">+11 Certificates</small>
+                            <small className="text-xs flex text-light mt-1"></small>
                         
                             
                         </div>
                         <div className="p-6 text-center transition border rounded-lg bg-bg-variant border-transparent hover:bg-transparent hover:border-primary">
                             <VscFolderLibrary className="mb-4 text-xl text-primary" />
                             <h5 className="text-sm font-semibold">Projects</h5>
-                            <small className="text-xs text-light block mt-1">+3 Completed</small>
+                            <small className="text-xs text-light block mt-1">{">"}10 Completed</small>
                             <small className="text-xs text-light block mt-1">+1 Ongoing</small>
                         </div>
                     </div>
