@@ -19,7 +19,7 @@ const data1 = [
         id: 2,
         image: IMG2,
         title: 'CodeWithMansi: Online HTML, CSS, JS code editor.',
-        github: 'https://github.com/mazer0P/Web-Scrapper',
+        github: 'https://github.com/Mansi1527/Code-editor',
         demo: 'https://codewithmansi.vercel.app/',
     },
     {
@@ -37,36 +37,7 @@ const data1 = [
     //     demo: 'https://3block.systems/',
     // },
 ]
-const data2 = [
-    {
-        id: 1,
-        image: IMG4,
-        title: 'Data leak worksheet Data leak worksheet',
-        github: 'https://github.com/mazer0P/Google-Cybersecurity-Certificate/blob/main/Course%20Support%20Files/Activity%20Template_%20Data%20leak%20worksheet.pdf',
-        demo: 'https://nguyenvu1310.github.io/',
-    },
-    {
-        id: 2,
-        image: IMG5,
-        title: 'Security audit of a finctional comapany',
-        github: 'https://github.com/mazer0P/Google-Cybersecurity-Certificate/blob/main/Course%20Support%20Files/Securityaudit%40BotiumToys.pdf',
-        demo: 'https://nguyenvu-personal-site.netlify.app/',
-    },
-    {
-        id: 3,
-        image: IMG6,
-        title: 'Velnerability assesement of a organization server',
-        github: 'https://github.com/mazer0P/Google-Cybersecurity-Certificate/blob/main/Course%20Support%20Files/Vulnerability%20assessment%20report.pdf',
-        demo: 'https://nguyenvu-todo-list.netlify.app/',
-    },
-    // {
-    //     id: 4,
-    //     image: IMG4,
-    //     title: '',
-    //     github: 'https://github.com/NguyenVu1310/threeblock',
-    //     demo: 'https://3block.systems/',
-    // },
-]
+
 
 
 const Portfolio = () => {
